@@ -22,5 +22,10 @@ final class CounterActionBinder {
             .map { CounterViewReactor.Action.decrease }
           .bind(to: reactor.action)
           .disposed(by: disposeBag)
+        
+        vc.goNextViewButton.rx.tap
+            .map{CounterViewReactor.Action.goNextView}
+            .bind(to: reactor.action)
+        .disposed(by: disposeBag)
     }
 }

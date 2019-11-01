@@ -26,15 +26,14 @@ extension CounterViewReactor{
     func mutate(action: CounterAction) -> Observable<CounterMutation> {
         switch action {
         case .increase:
-            return Observable.concat([
-                Observable.just(Mutation.increaseValue)
-            ])
+            return Observable.just(Mutation.increaseValue)
 
         case .decrease:
-            return Observable.concat([
-                Observable.just(Mutation.decreaseValue)
-            ])
+            return Observable.just(Mutation.decreaseValue)
+        case .goNextView:
+            return Observable.just(Mutation.goNextView)
         }
+        
     }
 }
 
@@ -43,10 +42,12 @@ extension CounterViewReactor{
     func reduce(state: CounterState, mutation: CounterMutation) -> CounterState {
         var state = state
         switch mutation {
-        case .increaseValue:
-            state.value += 1
-        case .decreaseValue:
-            state.value -= 1
+            case .increaseValue:
+                state.value += 1
+            case .decreaseValue:
+                state.value -= 1
+            case .goNextView:
+                break
         }
         return state
     }

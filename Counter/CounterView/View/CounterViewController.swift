@@ -17,7 +17,7 @@ final class CounterViewController: UIViewController, StoryboardView {
     @IBOutlet var decreaseButton: UIButton!
     @IBOutlet var increaseButton: UIButton!
     @IBOutlet var valueLabel: UILabel!
-    @IBOutlet var activityIndicatorView: UIActivityIndicatorView!
+    @IBOutlet weak var goNextViewButton: UIButton!
     var disposeBag = DisposeBag()
     
     override func viewDidLoad() {

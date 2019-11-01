@@ -17,10 +17,10 @@ final class CounterStateBinder {
           .map { "\($0)" }               // "10"
             .bind(to: vc.valueLabel.rx.text)  // Bind to valueLabel
           .disposed(by: disposeBag)
-
-        reactor.state.map { $0.isLoading }
-          .distinctUntilChanged()
-            .bind(to: vc.activityIndicatorView.rx.isAnimating)
-          .disposed(by: disposeBag)
+        
+        reactor.action.filter(){$0 == CounterViewReactor.Action.goNextView}
+            .subscribe(){ _ in
+                Router.presentNextView(vc: vc)
+        }.disposed(by: disposeBag)
     }
 }

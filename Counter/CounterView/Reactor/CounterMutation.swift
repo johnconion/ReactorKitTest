@@ -1,5 +1,5 @@
 //
-//  CounterAction.swift
+//  CounterMutation.swift
 //  Counter
 //
 //  Created by Ryosuke Tamura on 2019/10/31.
@@ -8,7 +8,8 @@
 
 import UIKit
 
-enum CounterAction {
-  case increase
-  case decrease
+enum CounterMutation {
+    case increaseValue
+    case decreaseValue
+    case goNextView
 }
