@@ -13,6 +13,21 @@ import RxSwift
 class LabelViewReactor: Reactor {
    
     let initialState: LabelViewState
+    
+    enum LabelViewAction {
+      case change
+      case close
+    }
+    
+    enum LabelViewMutation {
+      case changeIsHidden
+      case closeWindow
+    }
+
+    struct LabelViewState {
+        var labelIsHidden : Bool
+        var closeFlag : Bool
+    }
 
     init() {
         self.initialState = LabelViewState(

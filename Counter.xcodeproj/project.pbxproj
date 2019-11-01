@@ -15,16 +15,10 @@
 		035053421F61C325008E8863 /* CounterViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035053411F61C325008E8863 /* CounterViewReactor.swift */; };
 		7C9D964C236B338600894702 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D964B236B338600894702 /* LabelViewController.swift */; };
 		7C9D964E236B34C400894702 /* LabelViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D964D236B34C400894702 /* LabelViewReactor.swift */; };
-		7C9D9650236B35D900894702 /* LabelViewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D964F236B35D900894702 /* LabelViewAction.swift */; };
-		7C9D9652236B362E00894702 /* LabelViewMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D9651236B362E00894702 /* LabelViewMutation.swift */; };
-		7C9D9654236B364000894702 /* LabelViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D9653236B364000894702 /* LabelViewState.swift */; };
 		7C9D9656236B392D00894702 /* LabelViewActionBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D9655236B392D00894702 /* LabelViewActionBinder.swift */; };
 		7C9D9658236B393E00894702 /* LabelViewStateBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D9657236B393E00894702 /* LabelViewStateBinder.swift */; };
 		7CC97E7F236B1B07003C958A /* CounterStateBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC97E7E236B1B07003C958A /* CounterStateBinder.swift */; };
 		7CC97E81236B1C8F003C958A /* CounterActionBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC97E80236B1C8F003C958A /* CounterActionBinder.swift */; };
-		7CC97E85236B205A003C958A /* CounterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC97E84236B205A003C958A /* CounterAction.swift */; };
-		7CC97E87236B20DC003C958A /* CounterMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC97E86236B20DC003C958A /* CounterMutation.swift */; };
-		7CC97E89236B2196003C958A /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC97E88236B2196003C958A /* CounterState.swift */; };
 		7CC97E8E236B30FE003C958A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC97E8D236B30FE003C958A /* Router.swift */; };
 		C7B7B142B9573A9634155076 /* Pods_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1422AD7F80D485095F3E79B9 /* Pods_Counter.framework */; };
 /* End PBXBuildFile section */
@@ -43,16 +37,10 @@
 		61F7F1C8A689E3044090AE40 /* Pods-Counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Counter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Counter/Pods-Counter.debug.xcconfig"; sourceTree = "<group>"; };
 		7C9D964B236B338600894702 /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
 		7C9D964D236B34C400894702 /* LabelViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewReactor.swift; sourceTree = "<group>"; };
-		7C9D964F236B35D900894702 /* LabelViewAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewAction.swift; sourceTree = "<group>"; };
-		7C9D9651236B362E00894702 /* LabelViewMutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewMutation.swift; sourceTree = "<group>"; };
-		7C9D9653236B364000894702 /* LabelViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewState.swift; sourceTree = "<group>"; };
 		7C9D9655236B392D00894702 /* LabelViewActionBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewActionBinder.swift; sourceTree = "<group>"; };
 		7C9D9657236B393E00894702 /* LabelViewStateBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewStateBinder.swift; sourceTree = "<group>"; };
 		7CC97E7E236B1B07003C958A /* CounterStateBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterStateBinder.swift; sourceTree = "<group>"; };
 		7CC97E80236B1C8F003C958A /* CounterActionBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterActionBinder.swift; sourceTree = "<group>"; };
-		7CC97E84236B205A003C958A /* CounterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAction.swift; sourceTree = "<group>"; };
-		7CC97E86236B20DC003C958A /* CounterMutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterMutation.swift; sourceTree = "<group>"; };
-		7CC97E88236B2196003C958A /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
 		7CC97E8D236B30FE003C958A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,9 +109,6 @@
 		7C9D9648236B329300894702 /* Reactor */ = {
 			isa = PBXGroup;
 			children = (
-				7C9D964F236B35D900894702 /* LabelViewAction.swift */,
-				7C9D9651236B362E00894702 /* LabelViewMutation.swift */,
-				7C9D9653236B364000894702 /* LabelViewState.swift */,
 				7C9D964D236B34C400894702 /* LabelViewReactor.swift */,
 			);
 			path = Reactor;
@@ -172,9 +157,6 @@
 		7CC97E83236B200F003C958A /* Reactor */ = {
 			isa = PBXGroup;
 			children = (
-				7CC97E84236B205A003C958A /* CounterAction.swift */,
-				7CC97E86236B20DC003C958A /* CounterMutation.swift */,
-				7CC97E88236B2196003C958A /* CounterState.swift */,
 				035053411F61C325008E8863 /* CounterViewReactor.swift */,
 			);
 			path = Reactor;
@@ -339,22 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CC97E87236B20DC003C958A /* CounterMutation.swift in Sources */,
 				7C9D964E236B34C400894702 /* LabelViewReactor.swift in Sources */,
 				7C9D964C236B338600894702 /* LabelViewController.swift in Sources */,
-				7CC97E85236B205A003C958A /* CounterAction.swift in Sources */,
 				035053421F61C325008E8863 /* CounterViewReactor.swift in Sources */,
 				7C9D9658236B393E00894702 /* LabelViewStateBinder.swift in Sources */,
 				7CC97E81236B1C8F003C958A /* CounterActionBinder.swift in Sources */,
 				7CC97E8E236B30FE003C958A /* Router.swift in Sources */,
 				034F94C61EB789F400CB9EF1 /* CounterViewController.swift in Sources */,
 				034F94C41EB789F400CB9EF1 /* AppDelegate.swift in Sources */,
-				7C9D9650236B35D900894702 /* LabelViewAction.swift in Sources */,
-				7CC97E89236B2196003C958A /* CounterState.swift in Sources */,
 				7C9D9656236B392D00894702 /* LabelViewActionBinder.swift in Sources */,
-				7C9D9654236B364000894702 /* LabelViewState.swift in Sources */,
 				7CC97E7F236B1B07003C958A /* CounterStateBinder.swift in Sources */,
-				7C9D9652236B362E00894702 /* LabelViewMutation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

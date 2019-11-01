@@ -12,6 +12,23 @@ import RxSwift
 final class CounterViewReactor: Reactor {
    
     let initialState: CounterState
+    
+    enum CounterAction {
+        case increase
+        case decrease
+        case goNextView
+    }
+    
+    enum CounterMutation {
+        case increaseValue
+        case decreaseValue
+        case goNextView
+    }
+    
+    struct CounterState {
+      var value: Int
+      var isLoading: Bool
+    }
 
     init() {
         self.initialState = CounterState(
